@@ -27,5 +27,8 @@ class MainActivity : AppCompatActivity() {
     fun createBirthdayCard(view: View) {
         val name = binding.editTextPersonName.editableText.toString()
         Toast.makeText(this, "Name is $name" , Toast.LENGTH_SHORT).show()
+
+
+
     }
 }
