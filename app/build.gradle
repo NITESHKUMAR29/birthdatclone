@@ -15,6 +15,11 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    //here you have to add this thing for binding purpose.its called data binding.
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
 
     buildTypes {
         release {
